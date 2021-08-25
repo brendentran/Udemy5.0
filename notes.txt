@@ -1,0 +1,67 @@
+https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range
+
+Sequences
+    A sequence is an ordered collection of items
+    The word oredered there is important.
+    If a sequence wasn't ordered, you couldn't refer to individual items by their index position
+    When you iterate over a sequence - using a for loop, for example - you'll always get the items in the same order
+
+Iterables
+    In Python, anything that you can iterate over is an iterable
+    That means if you can use it in for loop, then it's iterable
+    The accurate defintion of an iterable is that it's an object that contains either
+    an _iter_ method or an _getitem_ method
+    Indexing must start at zero
+    All sequence types can be iterated over, and not iterables are not sequence
+
+Lists
+    It's not surprising that indexing and slicing works the same with a list as it did with a string, because they're both sequence types
+    There is one big difference between strings and lists: strings are immutable, which means they can't be changed.
+    Lists are mutable. You can change the contents of a lists
+
+Immutable objects
+    When an object is described as immutable, that means it can't be changed
+    The following immutable types are built into Python:
+        int
+        float
+        bool (True and False): a subclass of int
+        str (string)
+        tuple
+        frozenset
+        bytes
+    The documentation doesn't state that it should be object's address, just that it must be "guaranteed to be unique and constant for this object during its lifetime"
+    The CPython implementation does return the object's memory address, but not all Pythons will do that
+    The ID for an object may be different each time you run the prgramhttps://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range
+
+Sequences
+    A sequence is an ordered collection of items
+    The word oredered there is important.
+    If a sequence wasn't ordered, you couldn't refer to individual items by their index position
+    When you iterate over a sequence - using a for loop, for example - you'll always get the items in the same order
+
+Iterables
+    In Python, anything that you can iterate over is an iterable
+    That means if you can use it in for loop, then it's iterable
+    The accurate defintion of an iterable is that it's an object that contains either
+    an _iter_ method or an _getitem_ method
+    Indexing must start at zero
+    All sequence types can be iterated over, and not iterables are not sequence
+
+Lists
+    It's not surprising that indexing and slicing works the same with a list as it did with a string, because they're both sequence types
+    There is one big difference between strings and lists: strings are immutable, which means they can't be changed.
+    Lists are mutable. You can change the contents of a lists
+
+Immutable objects
+    When an object is described as immutable, that means it can't be changed
+    The following immutable types are built into Python:
+        int
+        float
+        bool (True and False): a subclass of int
+        str (string)
+        tuple
+        frozenset
+        bytes
+    The documentation doesn't state that it should be object's address, just that it must be "guaranteed to be unique and constant for this object during its lifetime"
+    The CPython implementation does return the object's memory address, but not all Pythons will do that
+    The ID for an object may be different each time you run the prgram
