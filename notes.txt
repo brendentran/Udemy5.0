@@ -65,3 +65,26 @@ Immutable objects
     The documentation doesn't state that it should be object's address, just that it must be "guaranteed to be unique and constant for this object during its lifetime"
     The CPython implementation does return the object's memory address, but not all Pythons will do that
     The ID for an object may be different each time you run the prgram
+
+Mutable Objects
+    A mutable object is one whose value can be changed.
+    Python has the following mutable objects built in:
+        List
+        Dict
+        Set
+        Bytearray
+    We'll be looking at dictionaries and sets in the next section
+    We can change the value of mutable objects, without
+    Strings are immutable. When we tried to change a string, Python created a new object
+    Lists are mutable
+    An immutable object can't be changed. You can create a new object, and use the same variable name for it, but you can't change the value of an immutable object
+
+Methods and Functions
+    A method is the same as a function, except that it's bound to an object
+    When you call a function, you just type its name, and provide any arguments in parentheses
+
+Dot Notation
+    s.append(x)
+    This means that we'll be appending x to a list called s
+    We pass x as an argument, so that the method knows what to append
+    But we don't have to use an argument to tell it which list to append to, because that comes at the start, before the dot
