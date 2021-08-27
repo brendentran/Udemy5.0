@@ -88,3 +88,15 @@ Dot Notation
     This means that we'll be appending x to a list called s
     We pass x as an argument, so that the method knows what to append
     But we don't have to use an argument to tell it which list to append to, because that comes at the start, before the dot
+
+Enumerate
+    Enumerate returns each item, with its index position
+    Can use enumerate with any featurable type
+
+List
+    variable.extend(variable) adds the (variable) list to the variable list
+    variable.sort() sorts the lists that has been combined
+
+Built-in Functions
+    Python has a documentation page that includes all of the built-in functions that Python offers
+    sorted returns a new list and .sort sorts the original list
