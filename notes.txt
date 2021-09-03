@@ -100,3 +100,31 @@ List
 Built-in Functions
     Python has a documentation page that includes all of the built-in functions that Python offers
     sorted returns a new list and .sort sorts the original list
+
+Edge Case
+    Internet browers are indispensible
+
+Corner Cases
+    If you're dealing with ratios, and both values are zero, then you've got the same amount of each
+    You may want to handle that differently, rather than returning "undefined".
+    It's very important to consider things like that, and make sure your code copes correctly
+    At the very least, it shouldn't crash or produce unexpected results
+
+Test Cases
+    So, what are the cases we need to consider?
+    We should test our code with data that meets the following criteria:
+        Outlying values at both the low and high ends
+        Outlying values at the low end only
+        Outlying values at the high end only
+        Only outlying values
+
+Lists:
+    Lists are mutable sequences, typically used to store homogenous items, but you are free to store anything but need to be careful when working
+    on the list
+
+Tuples:
+    A tuple is a mathematical name for an ordered set of data.
+    Tuples differ from list because they are immutable, meaning they cannot be changed.
+    Python3.8 added assignment expression to the language - in PEP 572. They use what's informally reffered to as the walrus operator
+    List is [], while tuple is ()
+
