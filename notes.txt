@@ -128,3 +128,12 @@ Tuples:
     Python3.8 added assignment expression to the language - in PEP 572. They use what's informally reffered to as the walrus operator
     List is [], while tuple is ()
 
+Summary:
+    In the second half of this section, we showed how you can create nested lists
+    We look at more string methods, starting with the join method, which joins all the items
+    A tuple is an ordered set of data, and is another Python sequence type
+    Tuples can be unpacked reliably, because they always contain the expected number of items
+    We saw how tuples and lists can be nested. We used data containing lists of albums
+    We also saw some guidelines about when to use lists or tuples to store data
+    We then showed you a more concise way to get details from our albums list
+    In the next section, we're going to have a quick look at functions
